@@ -1,0 +1,190 @@
+*{
+    font-family: "Roboto Mono", monospace;
+}
+
+.encabezado {
+    background-color: #3b3a3a;
+}
+
+.encabezado h1 {
+    color: #fa8334;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.logo {
+    width: 300;
+    height: 300px;    
+    position: relative;
+    left: 60px;
+    top: 10px;
+        
+}   
+
+.boton {
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    position: relative;
+    left: 1000px;
+}
+
+.imagen-central {
+    width: 900px;
+    height: 300px;
+    border-radius: 50px;
+    margin: 14px;
+    position: absolute;
+    left: 500px;
+}
+
+.carrito-de-compras {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 1190px;
+    bottom: 20px;
+}
+
+.linea-de-menu-1 {
+    display: flex;
+}
+
+.linea-de-menu-1 menu1 {
+    display: flex;
+}
+
+.linea-de-menu-1 menu1 img {
+    display: flex;
+}
+
+.h2 {
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.menu1 {
+    position: relative;
+    border: #fa8334;
+    left: 400px;
+}
+
+.menu2 {
+    position: relative;
+    left: 400px        
+}
+
+.cerveza {
+    width: 300px;
+    height: 150px;
+}
+
+.vinos {
+    width: 160px;
+    height: 200px;
+}
+
+.destilados {
+    width: 250px;
+    height: 200px;
+}
+
+.linea-de-menu-2 {
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.energizantes {
+    width: 250px;
+    height: 150px;
+}
+
+.gaseosas {
+    width: 280px;
+    height: 200px;
+}
+
+.agua {
+    width: 200px;
+    height: 200px;
+}
+
+.mcerv {
+    text-align: center;
+    font-size: 30px;
+}
+
+.pie {
+    text-align: center;
+    font-size: 20px;
+}
+
+.piecontenedor {
+    background-color: #3b3a3a;
+}
+
+.parawhatsapp {
+    text-align: center;
+    color: #f0f8ff;
+}
+
+.redes {
+    text-align: center;
+    color: #f0f8ff;
+}
+.ubicacion {
+    position: relative;
+    right: 50px;
+}
+
+.whatsapp {
+    width: 50px;
+    height: 30px;    
+}
+
+.instagram {
+    display: inline;
+    width: 80px;
+    height: 80px;    
+}
+
+.facebook {
+    width: 80px;
+    height: 80px;    
+}
+
+.a1 {
+    width: 220px;
+    height: 150px;
+}
+
+.a2 {
+    width: 150px;
+    height: 150px;
+}
+
+.a3 {
+    width: 70px;
+    height: 150px;
+}
+
+.a4 {
+    width: 120px;
+    height: 150px;
+}
+
+.mnav {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f0cfb8;     
+}
+
+
+
+
+
+
