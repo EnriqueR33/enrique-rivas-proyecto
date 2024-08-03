@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- para la compatibilidad
+    con los navegadores antiguos o viejos-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--BS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--enlace de iconos de bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--estilos-->
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Mi proyecto</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header class="row mx-auto">
+      <div class="d-flex align-items justify-content-center p-1  bg-dark">
+        <div class="encabezado col-lg-3">
+          <img class="logo img-fluid" src="../assets/logo.png" alt="logo">
+        </div>            
+        <div class="titulo col-lg-6">
+          <h1 class="h1 mt-5">MM Licores</h1>
+          <p class="text-light bajotitulo">Proveedor de bebidas</p>
+        </div>
+        <div class="d-block mx-auto my-auto col-lg-3">          
+          <img class="carrito img-fluid d-block" src="../assets/carrito-de-compras.png" alt="carrito">
+          <button type="button" class="boton d-block btn btn-success">ir</button>          
+        </div>
+      </div>                  
+    </header>
+    <main class="row mx-auto">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http:/index.html">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/cervezas.html">Cervezas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/vinos-y-destilados.html">Vinos y Destilados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/bebidas-sin-alcohol.html">Bebidas sin alcohol</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </main>
+    <section class="row col-xxl-8 justify-content-center mx-auto mt-2">
+      <div class="card text-center align-items-center m-2" style="width: 20rem;">
+        <img src="../assets/dv-catena.jpeg" class="catena card-img-top mt-4" alt="tinto" width="10" height="250">
+        <div class="card-body">
+          <h5 class="card-title text-center">Vino tinto DV Catena x750ml. Cabernet-Malbec</h5>
+          <p class="card-text text-center">es un vino elegante y complejo, de color rojo rubí con reflejos violetas.</p>
+          <div class="badge bg-success text-wrap mx-4 p-2" style="width: 4rem;">
+            $16.000</div>
+        </div>
+      </div>
+      <div class="card text-center align-items-center m-2" style="width: 20rem;">
+        <img src="../assets/blanco-dada.jpg" class="dada card-img-top mt-4" alt="vblanco" width="10" height="250">
+        <div class="card-body">
+          <h5 class="card-title text-center">vino Blanco DADA 6 honey x750ml.</h5>
+          <p class="card-text text-center">Blend de uvas blancas que se cosechan de forma tardía otorgando un color
+            dorado brillante. Su paso por roble otorga delicadas notas a vainilla.</p>
+          <div class="badge bg-success text-wrap mx-4 p-2" style="width: 4rem;">
+            $4.500</div>
+        </div>
+      </div>
+      <div class="card text-center align-items-center m-2" style="width: 20rem;">
+        <img src="../assets/rosa-santa-julia.jpeg" class="rosa-st catena card-img-top mt-4" alt="vrosado" width="10"
+          height="250">
+        <div class="card-body">
+          <h5 class="card-title text-center">Vino Rosado Santa Julia x750ml.</h5>
+          <p class="card-text text-center">En sus aromas se pueden apreciar notas de frutos rojos como frutillas,
+            frambuesas y grosellas. excelente equilibrio entre acidez y estructura.</p>
+          <div class="badge bg-success text-wrap mx-4 p-2" style="width: 4rem;">
+            $3.000</div>
+        </div>
+      </div>
+      <div class="card text-center align-items-center m-2" style="width: 20rem;">
+        <img src="../assets/blue-label.jpg" class="blue card-img-top mt-4" alt="whisky" width="10" height="250">
+        <div class="card-body">
+          <h5 class="card-title text-center">Whisky Blue Label x750ml.</h5>
+          <p class="card-text text-center">Inicia con un sabor a avellanas, miel, jerez y naranjas, para después liberar
+            secretos como el jengibre, quinoto, sándalo y chocolate negro. Luego, la dulzura de la miel emerge,
+            acompañada por toques de pimienta y frutos secos</p>
+          <div class="badge bg-success text-wrap mx-2 p-2" style="width: 5rem;">
+            $116.000</div>
+        </div>
+      </div>
+      <div class="card text-center align-items-center m-2" style="width: 20rem;">
+        <img src="../assets/santa-teresa-1796.png" class="ron card-img-top mt-4" alt="ron" width="10" height="250">
+        <div class="card-body">
+          <h5 class="card-title text-center">Ron Santa Teresa 1976 x750ml.</h5>
+          <p class="card-text text-center">Catalogado como el mejor ron del mundo, Ron de Venezuela. Color ámbar rojizo,
+            es rico en lágrimas. Aroma afrutado, con notas de miel y chocolate negro.</p>
+          <div class="badge bg-success text-wrap mx-4 p-2" style="width: 4rem;">
+            $96.000</div>
+        </div>
+      </div>
+      <div class="card text-center align-items-center m-2" style="width: 20rem;">
+        <img src="../assets/gin-bombay.jpg" class="gin card-img-top mt-4" alt="gin" width="10" height="250">
+        <div class="card-body">
+          <h5 class="card-title text-center">Gin Bombay x750ml.</h5>
+          <p class="card-text text-center">El producto final, es nítido, de aroma a enebro y especias, con predominio de
+            cítricos. En boca, es suave ligera y fresca, y sobre todo muy equilibrada, ligeramente dulce y con final
+            picante.</p>
+          <div class="badge bg-success text-wrap mx-4 p-2" style="width: 4rem;">
+            $30.000</div>
+        </div>
+      </div>
+    </section>
+    <footer class="row d-flex text-center flex-wrap mx-auto p-1 bg-dark">
+      <p class="text-light p-1 mx-auto my-auto ">nos puedes contactar por medio de <i class="bi bi-whatsapp p-1 fs-4" ></i> 11-1234-5678</p>
+      <p class="text-light p-1 mx-auto my-auto ">siguenos en nuestras redes :</p>
+      <div id="iconos" class="redes d-flex  justify-content-center mx-auto my-auto">
+        <a href="https://www.facebook.com/"><i class="bi bi-facebook fs-4"></i></a>            
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram mx-2 fs-4"></i></a>
+      </div>
+    </footer>
+  </div>
+  <!--BS-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
