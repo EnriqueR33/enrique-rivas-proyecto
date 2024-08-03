@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.encabezado {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.logo {
+    margin: 2%;
+    width: 150px;
+    height: 150px;   
+}
+
+.h1 {
+    color: #ff6347;
+    text-align: center;
+    font-size: 70px;    
+}   
+
+.text-light {
+    text-align: center;
+}
+
+.bajotitulo {
+    font-size: 30px;
+}
+
+.carrito {
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+}
+
+.imagen {
+    height: 600px;
+}
+
+.boton {    
+    width: 20%; 
+}
+
+.roja {
+    width: 195px;
+    height: 200px;
+}
+
+.ipa {
+    width: 85px;
+    height: 190px;
+}
+
+.ipa-roja {
+    width: 135px;
+    height: 200px;
+}
+
+.caravana {
+    width: 270px;
+    height: 270px;
+}
+
+.temple {
+    width: 240px;
+    height: 240px;
+}
+
+.catena {
+    width: 165px;
+    height: 250px;
+}
+
+.dada {
+    width: 80px;
+    height: 270px;
+}
+
+.rosa-st {
+    width: 160px;
+    height: 250px;
+}
+
+.blue {
+    width: 250px;
+    height: 250px;
+}
+
+.ron {
+    width: 165px;
+    height: 250px;
+}
+
+.gin {
+    width: 250px;
+    height: 250px;
+}
+
+.mnegro {
+    width: 250px;
+    height: 250px;
+}
+
+.mmango {
+    width: 250px;
+    height: 250px;
+}
+
+.manana {
+    width: 250px;
+    height: 250px;
+}
+
+.redbull {
+    width: 250px;
+    height: 250px;
+}
+
+.agua {
+    width: 250px;
+    height: 250px;
+}
+
+.pdtpomelo {
+    width: 190px;
+    height: 270px;
+}
+
+.cervezas {
+    height: 100%;
+}
+
+.botellas {
+    height: 100%;
+}
+
+.sin-alcohol {
+    height: 100%;
+}
+
+.formulario {
+    width: 50%;
+    padding: 60px;
+    border-radius: 10%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+
+@media (max-width:1440px) {
+    .logo {
+        margin-left: 50px; 
+    }
+    .carrito {
+        margin-left: 60px;
+    }
+    .boton {    
+        width: 20%; 
+        margin-left: 55px;
+    }
+    .img-fluid2 {
+        height: 500px;
+    }
+    
+}
+
+@media (max-width:1024px) {
+    .carrito {
+        margin-left: 50px;
+    }
+    .img-fluid2 {
+        width: 90%;
+        height: 500px;
+    }
+    .formulario {
+        width: 80%;
+        padding: 60px;
+        border-radius: 10%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .logo {
+        margin-left: 10px; 
+    }
+    .carrito {
+    margin-left: 45px;
+    }
+    .titulo {
+        margin-left: 30px;
+    }    
+    .boton {    
+        width: 45%; 
+    }
+    .img-fluid2 {
+        width: 100%;
+        height: 500px;
+    }
+    
+}    
+
+@media (max-width:425px) {
+    .logo {
+       width: 90px;
+       height: 90px; 
+    }
+    .h1 {
+        color: #ff6347;
+        text-align: center;
+        font-size: 23px;
+    }
+    .bajotitulo {
+        font-size: 14px;
+    }
+    .carrito {
+        margin-right: 15px;
+        }
+    .boton {    
+        width: 35%; 
+    }
+    .carousel-indicators {
+        height: 70px;
+    }
+    .formulario {
+        width: 90%;
+        padding: 30px;
+        border-radius: 10%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

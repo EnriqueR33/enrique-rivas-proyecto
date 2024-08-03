@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- para la compatibilidad
+    con los navegadores antiguos o viejos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--enlace de iconos de bootstrap-->    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    
+    <!--estilos-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mi proyecto</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <header class="row mx-auto">
+      <div class="d-flex align-items justify-content-center p-1  bg-dark">
+        <div class="encabezado col-lg-3">
+          <img class="logo img-fluid" src="./assets/logo.png" alt="logo">
+        </div>            
+        <div class="titulo col-lg-6">
+          <h1 class="h1 mt-5">MM Licores</h1>
+          <p class="text-light bajotitulo">Proveedor de bebidas</p>
+        </div>
+        <div class="d-block mx-auto my-auto col-lg-3">          
+          <img class="carrito img-fluid d-block" src="./assets/carrito-de-compras.png" alt="carrito">
+          <button type="button" class="boton d-block btn btn-success">ir</button>          
+        </div>
+      </div>                  
+    </header>
+    <main class="row mx-auto">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="http:/index.html">Menu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/cervezas.html">Cervezas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/vinos-y-destilados.html">Vinos y Destilados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/bebidas-sin-alcohol.html">Bebidas sin alcohol</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </main>
+    <section class="row container-fluid mx-auto col-xxl-12">
+      <div id="carouselExampleIndicators" class="container-fluid carousel carousel-dark slide col-xxl-12" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active imagen text-center " data-bs-interval="3000">
+            <img src="./assets/cervezas.jpg" class="cervezas img-fluid2" alt="cervezas"> 
+          </div>
+          <div class="carousel-item imagen text-center" data-bs-interval="3000">
+            <img src="./assets/destilados.jpeg" class="botellas img-fluid2" alt="botellas">
+          </div>
+          <div class="carousel-item imagen text-center">
+            <img src="./assets/energizantes.jpg" class="sin-alcohol img-fluid2" alt="sin-alcohol">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next btn-bd-primary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <footer class="row d-flex text-center flex-wrap mx-auto p-1 bg-dark">
+      <p class="text-light p-1 mx-auto my-auto ">nos puedes contactar por medio de <i class="bi bi-whatsapp p-1 fs-4" ></i> 11-1234-5678</p>
+      <p class="text-light p-1 mx-auto my-auto ">siguenos en nuestras redes :</p>
+      <div id="iconos" class="redes d-flex  justify-content-center mx-auto my-auto">
+        <a href="https://www.facebook.com/"><i class="bi bi-facebook fs-4"></i></a>            
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram mx-2 fs-4"></i></a>
+      </div>
+    </footer>
+  </div>
+    <!--BS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>  
+</body>
+</html>
